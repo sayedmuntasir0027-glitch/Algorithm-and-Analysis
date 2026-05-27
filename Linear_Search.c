@@ -68,3 +68,6 @@ Is element equal to target?
       Print "Item not found"
                 ↓
                End
+Time Complexity:
+- Best Case: O(1)
+- Worst Case: O(n)
