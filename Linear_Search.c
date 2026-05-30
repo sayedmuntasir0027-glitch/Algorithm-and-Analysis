@@ -29,7 +29,6 @@ int main() {
     return 0;
 }
 
-
 # How Linear Search Works
 
 The program first takes the size of the array from the user.
@@ -68,6 +67,7 @@ Is element equal to target?
       Print "Item not found"
                 ↓
                End
+    
 Time Complexity:
 - Best Case: O(1)
 - Worst Case: O(n)
