@@ -53,3 +53,34 @@ int main()
 
     return 0;
 }
+
+#  Work flow of this code!!!!
+
+Start
+  ↓
+Input number of vertices
+  ↓
+Input number of edges
+  ↓
+Input all edges (u → v)
+  ↓
+Create adjacency matrix
+  ↓
+Mark all nodes as unvisited
+  ↓
+Start DFS from first unvisited node
+  ↓
+Visit node
+  ↓
+Go to all adjacent unvisited nodes
+  ↓
+After finishing all neighbors:
+Push node into stack
+  ↓
+Repeat for all nodes
+  ↓
+Pop stack and print result
+  ↓
+Topological Order printed
+  ↓
+End
