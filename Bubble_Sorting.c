@@ -1,3 +1,5 @@
+Bubble Sort is used to sort data by repeatedly comparing and swapping adjacent elements, making it simple and easy for beginners to understand sorting concepts.
+
 #include<stdio.h>
 
 int main() {
@@ -84,3 +86,12 @@ Outer loop finished?
 Print sorted array
   ↓
 End
+
+
+Time Complexity:
+
+Best Case: O(n²)
+
+Average Case: O(n²)
+
+Worst Case: O(n²)
