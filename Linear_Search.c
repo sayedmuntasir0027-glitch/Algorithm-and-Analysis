@@ -70,4 +70,6 @@ Is element equal to target?
     
 Time Complexity:
 - Best Case: O(1)
+    T(n)=c
 - Worst Case: O(n)
+    T(n)=c1​⋅n+c2​
