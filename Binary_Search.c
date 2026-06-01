@@ -43,7 +43,41 @@ int main() {
     }
 
 
-  # Binary Search Flow (Function Based)
+
+1️.
+
+The program first takes the size of the array from the user.
+Then all array elements are entered in sorted order.
+The user gives the value that needs to be searched.
+
+2.
+
+The search process starts by initializing:
+low = 0 and high = n - 1.
+
+The middle index is calculated using:
+mid = (low + high) / 2.
+
+3️.
+
+The middle element is compared with the target value.
+
+If a match is found:
+The program prints the position and stops the search.
+
+If the target is greater than the middle element:
+The search continues in the right half (low = mid + 1).
+
+If the target is smaller than the middle element:
+The search continues in the left half (high = mid - 1).
+
+4️.
+
+If the loop finishes without finding the value:
+The program prints "Item not found".
+    
+
+# Binary Search Flow (Function Based)
 
 Start
   ↓
